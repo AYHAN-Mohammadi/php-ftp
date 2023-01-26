@@ -1,0 +1,32 @@
+{
+  "name": "Ayhan-Mohammadi/php-ftp",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+     "ftp",
+     "sftp",
+     "ssl-ftp",
+     "ssl", 
+     "file",
+     "server", 
+     "lib", 
+     "helper"],
+  "homepage": "https://github.com/Ayhan-Mohammadi/php-ftp",
+
+	"authors"            : [
+    {
+      "name"     : "Ayhan Mohammadi",
+      "email"    : "Ayhan.Mohammadi.dev@gamil.com",
+      "site" : "devexpr.site"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-ftp": "*"
+  },
+  "autoload": {
+    "psr-0": {
+        "FtpClient": "*/"
+    }
+  }
+}
